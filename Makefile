@@ -3,7 +3,7 @@
 export PROJECT_DIR := $(dir $(realpath ${MAKEFILE_LIST}))
 
 # to define to ArduinoCore root directory 
-CORE_DIR := ${PROJECT_DIR}../ArduinoCore/
+CORE_DIR := ${PROJECT_DIR}../../GitHub/piif/ArduinoCore/
 
 # other arduino librairies project pathes this project depends on
 export DEPENDENCIES := ${CORE_DIR} ${CORE_DIR}../ArduinoLibs/ ${CORE_DIR}../ArduinoTools/

@@ -3,6 +3,9 @@
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="de.innot.avreclipse.configuration.app.release.1277106742">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.release.1277106742" moduleId="org.eclipse.cdt.core.settings" name="Uno">
+				<macros>
+					<stringMacro name="PIF_TOOL_CHAIN" type="VALUE_TEXT" value=""/>
+				</macros>
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -40,6 +43,7 @@
 								<option id="de.innot.avreclipse.compiler.option.def.1789871530" name="Define Syms (-D)" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ARDUINO=105"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.1253060651" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
@@ -49,6 +53,7 @@
 								<option id="de.innot.avreclipse.cppcompiler.option.def.34785682" name="Define Syms (-D)" superClass="de.innot.avreclipse.cppcompiler.option.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ARDUINO=105"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.incpath.535518169" name="Include Paths (-I)" superClass="de.innot.avreclipse.cppcompiler.option.incpath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
@@ -90,6 +95,9 @@
 		</cconfiguration>
 		<cconfiguration id="de.innot.avreclipse.configuration.app.release.1277106742.407009932">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.release.1277106742.407009932" moduleId="org.eclipse.cdt.core.settings" name="Micro">
+				<macros>
+					<stringMacro name="PIF_TOOL_CHAIN" type="VALUE_TEXT" value=""/>
+				</macros>
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -129,6 +137,7 @@
 									<listOptionValue builtIn="false" value="USB_VID=0x2341"/>
 									<listOptionValue builtIn="false" value="USB_PID=0x8037"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.1549035150" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
@@ -140,6 +149,7 @@
 									<listOptionValue builtIn="false" value="USB_VID=0x2341"/>
 									<listOptionValue builtIn="false" value="USB_PID=0x8037"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.incpath.900660698" name="Include Paths (-I)" superClass="de.innot.avreclipse.cppcompiler.option.incpath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
@@ -181,6 +191,9 @@
 		</cconfiguration>
 		<cconfiguration id="de.innot.avreclipse.configuration.app.release.1277106742.1646306142">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.release.1277106742.1646306142" moduleId="org.eclipse.cdt.core.settings" name="Mega">
+				<macros>
+					<stringMacro name="PIF_TOOL_CHAIN" type="VALUE_TEXT" value=""/>
+				</macros>
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -218,6 +231,7 @@
 								<option id="de.innot.avreclipse.compiler.option.def.578855434" name="Define Syms (-D)" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ARDUINO=105"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.1564546834" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
@@ -227,6 +241,7 @@
 								<option id="de.innot.avreclipse.cppcompiler.option.def.1788013944" name="Define Syms (-D)" superClass="de.innot.avreclipse.cppcompiler.option.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ARDUINO=105"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.incpath.1248433488" name="Include Paths (-I)" superClass="de.innot.avreclipse.cppcompiler.option.incpath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
@@ -307,6 +322,7 @@
 									<listOptionValue builtIn="false" value="USB_VID=0x2341"/>
 									<listOptionValue builtIn="false" value="USB_PID=0x8041"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.566684116" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
@@ -318,6 +334,7 @@
 									<listOptionValue builtIn="false" value="USB_VID=0x2341"/>
 									<listOptionValue builtIn="false" value="USB_PID=0x8041"/>
 									<listOptionValue builtIn="false" value="NO_ARDUINO_IDE=1"/>
+									<listOptionValue builtIn="false" value="PIF_TOOL_CHAIN"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.incpath.1024904548" name="Include Paths (-I)" superClass="de.innot.avreclipse.cppcompiler.option.incpath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
@@ -330,7 +347,7 @@
 							</tool>
 							<tool id="de.innot.avreclipse.tool.linker.winavr.app.release.602993274" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.release"/>
 							<tool id="de.innot.avreclipse.tool.cpplinker.app.release.2059997151" name="AVR C++ Linker" superClass="de.innot.avreclipse.tool.cpplinker.app.release">
-								<option id="de.innot.avreclipse.cpplinker.option.libs.2130870323" name="Libraries (-l)" superClass="de.innot.avreclipse.cpplinker.option.libs" valueType="libs"/>
+								<option id="de.innot.avreclipse.cpplinker.option.libs.2130870323" name="Libraries (-l)" superClass="de.innot.avreclipse.cpplinker.option.libs"/>
 								<option id="de.innot.avreclipse.cpplinker.option.libpath.625890998" name="Libraries Path (-L)" superClass="de.innot.avreclipse.cpplinker.option.libpath" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoCore/target/${ConfigName}}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ArduinoLibs/target/${ConfigName}}&quot;"/>
